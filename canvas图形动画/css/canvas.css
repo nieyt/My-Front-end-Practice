@@ -1,0 +1,132 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+    font-family: 微软雅黑;
+}
+.can1{
+    background-color:white;
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border: 1px solid #959595;
+    border-radius: 2px;
+}
+.border {
+    background-color:#F0F0F0 ;
+    width: 750px;
+    height: 530px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-top: -265px;
+    margin-right: -375px;
+    border-radius: 2px;
+}
+#menu{
+    height: 68px;
+    width: 750px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-bottom: 2px solid #959595;
+    border-radius: 2px;
+}
+#menu ul{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+#menu ul li{
+    float: left;
+    display: inline-block;
+    list-style: none;
+    width:14%;
+    background-color: rgba(230,230,230,1);
+    margin-left: 1.6%;
+    text-align: center;
+    height: 45px;
+    line-height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#menu ul .li1{
+    width: 15.5%;
+    color: darkred;
+    margin-right: 1.5%;
+}
+#menu ul li:hover{
+    color: darkred;
+}
+#menu2{
+    height: 450px;
+    width: 130px;
+    border: 1px solid #959595;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(230,230,230,1);
+    border-radius: 2px;
+}
+li{
+    list-style: none;
+    cursor: pointer;}
+#menu2>ul{
+    width: 90%;
+    margin:0px auto;
+}
+#menu2 .li{
+    background-color:rgba(240,200,200,1);
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #959595;
+    border-radius: 3px;
+    text-align: center;
+    color: darkred;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+#menu2 .li ul li{
+    line-height:30px;
+    border: 1px solid indianred;
+    border-radius:3px ;
+    width: 100%;
+    background:rgba(240,200,200,1);
+    color: black;
+    margin-top: 2px;
+    height:35px;
+    overflow: hidden;
+}
+#menu2 .li ul li:hover{
+    color: darkred;
+}
+#menu2 .li #li2span,#li3span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+    border: 1px solid rgba(0,0,0,0);
+    line-height: 20px;
+
+    }
+#menu2 .li:hover #li2span{
+    border: 1px solid indianred;
+    border-radius: 3px;
+    background-color: rgba(240,180,200,1);
+}
+#menu2 .li:hover #li3span{
+    border: 1px solid indianred;
+    background-color: rgba(240,180,200,1);
+    border-radius: 3px;
+}
+.down{
+    position: absolute;
+    bottom: 30px;
+    width: 90%;
+}
+
